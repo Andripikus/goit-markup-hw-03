@@ -4,15 +4,52 @@ body {
   color: #434455;
 }
 
-a {
-  text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-li {
+ul {
   list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -80,6 +117,11 @@ li {
   background: #2e2f42;
 }
 
+.hero-wrap {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -87,6 +129,9 @@ li {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-order-btn {
@@ -97,6 +142,8 @@ li {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-order-btn:hover,
@@ -114,6 +161,8 @@ li {
 }
 
 .features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-title {
